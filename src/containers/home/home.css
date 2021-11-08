@@ -1,5 +1,25 @@
 #home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem 1rem;
+}
+
+#home-left {
+  background-color: whitesmoke;
+  height: 400px;
+  max-width: 50%;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+#home-right {
+  height: 400px;
+
 }
 
 #landing-img {

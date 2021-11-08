@@ -6,15 +6,21 @@ class Home extends Component {
   render() {
     return (
       <div id='home-container'>
-        <div>
-          <div id='dot-section'></div>
-          <h1>We Help You Make Modern Interior</h1>
-          <h3>
-            We will help you to make an elegant and luxurious interior designed
-            by professional interior designer
-          </h3>
+        <div id='home-left'>
+          <div>30 Days Free Trial</div>
+          <h1>Life Should Be Easy</h1>
+          <h5>
+            Financial transactions remotely using a mobile device Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Repellendus quaerat
+            voluptate maxime cum quibusdam obcaecati magnam, culpa iste debitis
+            aliquid, quae iure doloremque libero aliquam sed, voluptas illum
+            voluptates? Obcaecati.
+          </h5>
+          <p className='colored-btn'>Get Started</p>
         </div>
-        <img id='landing-img' src={LandingImg} alt='Landing' />
+        <div id='home-right'>
+          <img id='landing-img' src={LandingImg} alt='Landing' />
+        </div>
       </div>
     );
   }

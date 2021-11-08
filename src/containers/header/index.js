@@ -17,7 +17,7 @@ class Header extends Component {
         </nav>
         <div id='search-container'>
           <p>Login</p>
-          <p>Signup</p>
+          <p className='colored-btn'>Signup</p>
         </div>
       </header>
     );

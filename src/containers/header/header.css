@@ -29,3 +29,12 @@
 #search-container > * {
   margin: 0 1rem;
 }
+
+.colored-btn {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  max-width: 100px;
+  text-align: center;
+}
