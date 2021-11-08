@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import './footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+  faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons';
 class Footer extends Component {
   render() {
     return (
@@ -11,6 +17,11 @@ class Footer extends Component {
               Financial transactions remotely using a mobile device such as a
               smartphone or tablet
             </p>
+            <div id='footer-icon'>
+              <FontAwesomeIcon icon={faFacebookSquare} size='2x' />
+              <FontAwesomeIcon icon={faTwitterSquare} size='2x' />
+              <FontAwesomeIcon icon={faLinkedinIn} size='2x' />
+            </div>
           </div>
           <div>
             <h5>Besnik</h5>
