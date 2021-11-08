@@ -4,16 +4,18 @@ import './index.css';
 import Home from './containers/home/';
 import About from './containers/about';
 import Contact from './containers/contact';
-import Work from './containers/work';
+import Download from './containers/download';
 import Header from './containers/header';
+import Footer from './containers/footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Home />
     <About />
-    <Work />
+    <Download />
     <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

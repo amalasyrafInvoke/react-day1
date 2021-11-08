@@ -1,0 +1,22 @@
+#download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.download-list > * {
+  margin: 0 1rem;
+}
+
+.download-text {
+  max-width: 40%;
+}
