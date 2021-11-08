@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+#navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar > * {
+  margin: 0 1rem;
+}
+
+#search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+#search-container > * {
+  margin: 0 1rem;
+}
