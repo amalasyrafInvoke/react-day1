@@ -20,3 +20,12 @@
 .download-text {
   max-width: 40%;
 }
+
+.outlined-btn {
+  padding: 1rem;
+  border: 1px solid black;
+  color: black;
+  border-radius: 8px;
+  max-width: 150px;
+  text-align: center;
+}

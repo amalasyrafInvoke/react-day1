@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin: 1.5rem 1rem;
+  padding-top: 100px;
 }
 
 #home-left {
@@ -15,10 +16,12 @@
   align-items: center;
   justify-content: center;
   padding: 0 1.5rem;
+  margin-left: 3rem;
 }
 
 #home-right {
   height: 400px;
+  margin-right: 3rem;
 
 }
 
